@@ -1,0 +1,77 @@
+#banner {
+    .form-control[type="search"]::placeholder {
+        color: $white;
+    }
+    .movie {
+        height: 100vh;
+        position: relative;
+        background: $black;
+        .movie__bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            filter: blur(3px);
+        }
+        .movie__name {
+            font-size: 3rem;
+        }
+        .movie__rating .bi {
+            font-size: 1.2rem;
+            color: $red;
+        }
+        .movie__desc {
+            font-size: 1.2rem;
+            font-weight: 300;
+            line-height: 2rem;
+        }
+    }
+}
+
+.listing {
+    .movie {
+        background: $black;
+        position: relative;
+        transition: all .3s ease-in;
+        &:hover img {
+            opacity: .5;
+            transition: all .3s ease-in;
+        }
+        &:hover .movie__details {
+            opacity: 1;
+        }
+        .movie__details {
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            opacity: 0;
+            transition: all .3s ease-in;
+            .movie__fav_btn {
+                font-size: 1.2rem;
+                color: $white;
+                &:hover {
+                    font-weight: 900;
+                    color: $red;
+                    transition: all .3s ease-in;
+                }
+            }
+        }
+        .movie__reating {
+            .bi-star-fill {
+                font-size: .8rem;
+                color: $red;
+            }
+        }
+        .movie__name {
+            font-size: 1.6rem;
+        }
+    }
+}
+
+.footer {
+    .social__icons {
+        font-size: 1.2rem;
+    }
+}

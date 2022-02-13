@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Netflix</title>
+    <link rel="stylesheet" href="dist/css/fontawesome.min.css" />
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="dist/css/vendor.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="dist/css/style.min.css" />
+</head>
+
+<body>
+    <section id="banner">
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+            Net<span class="text-danger fw-bold">flix</span>
+          </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav col-12 col-md-6 p-0 justify-content-end">
+                        <form class="d-flex align-items-center">
+                            <input class="form-control me-2 bg-transparent border-0" type="search" placeholder="Search for your movie" aria-label="Search" />
+                            <span class="bg-transparent border-0" type="submit">
+                  <i class="bi bi-search text-danger fw-500"></i>
+                </span>
+                        </form>
+                    </div>
+                    <div class="navbar-nav ms-auto">
+                        <a href="login.html" class="btn btn-danger mb-2 mb-md-0 me-0 me-md-2">Login</a
+              >
+              <a
+                href="register.html"
+                class="btn btn-outline-light mb-2 mb-md-0 me-0 me-md-2"
+                >Register</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class="movies owl-carousel owl-theme">
+        <div
+          class="movie text-white d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="movie__bg"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.6),
+                  rgba(0, 0, 0, 0.6)
+                ),
+                url(./dist/images/films/suspense/gone-girl/large.jpg)
+                  center/cover no-repeat;
+            "
+          ></div>
+          <div class="container position-relative">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="d-flex justify-content-between">
+                  <h1 class="movie__name">Seven</h1>
+                  <span class="movie__year align-self-center">1995</span>
+                </div>
+                <div class="movie__rating d-flex my-2">
+                  <div class="d-flex">
+                    <span class="me-1"> <i class="bi bi-star-fill"></i></span>
+                    <span class="me-1"> <i class="bi bi-star-fill"></i></span>
+                    <span class="me-1"> <i class="bi bi-star-fill"></i></span>
+                    <span class="me-1"> <i class="bi bi-star-fill"></i></span>
+                    <span class="me-1"> <i class="bi bi-star-fill"></i></span>
+                  </div>
+                  <span class="align-self-center"> 6.5 </span>
+                </div>
+                <p class="movie__desc my-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  minus eius minima. Inventore aliquid corrupti ex ut, esse
+                  debitis ullam, nemo quaerat quas iste delectus blanditiis
+                  eligendi quam sed minima?
+                </p>
+                <div class="movie__cta my-2">
+                  <a href="show.html" class="btn btn-danger me-1">
+                    <i class="bi bi-play-fill me-1"></i> Watch Now</a
+                  >
+                  <a href="" class="btn btn-outline-light">
+                    <i class="bi bi-suit-heart-fill me-1"></i>Add To Favorite</a
+                  >
+                </div>
+              </div>
+              <div class="col-6 mx-auto mt-2 col-md-3 ms-md-auto me-md-0">
+                <img
+                  class="img-fluid"
+                  src="./dist/images/films/suspense/gone-girl/MV5BZDgyZmY5MmItY2I3Ny00NjA4LWFhNmItMGQ4ZGJhZDk5YjU3XkEyXkFqcGdeQXVyMTAzMDM4MjM0._V1_.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- up movie -->
+        <div
+          class="movie text-white d-flex justify-content-center align-items-center"
+        >
+          <div
+            class="movie__bg"
+            style="
+              background: linear-gradient(
+                  rgba(0, 0, 0, 0.6),
+                  rgba(0, 0, 0, 0.6)
+                ),
+                url(./dist/images/films/suspense/gone-girl/uplarge.jpg)
+                  center/cover no-repeat;
+            "
+          ></div>
+          <div class="container position-relative">
+            <div class="row">
+              <div class="col-md-6">
+                <div class="d-flex justify-content-between">
+                  <h1 class="movie__name">UP</h1>
+                  <span class="movie__year align-self-center">2019</span>
+                </div>
+                <div class="movie__rating d-flex my-2">
+                  <div class="d-flex">
+                    <span class="me-1"> <i class="bi bi-star-fill"></i></span>
+                    <span class="me-1"> <i class="bi bi-star-fill"></i></span>
+                    <span class="me-1"> <i class="bi bi-star-fill"></i></span>
+                    <span class="me-1"> <i class="bi bi-star-fill"></i></span>
+                  </div>
+                  <span class="align-self-center"> 4.7 </span>
+                </div>
+                <p class="movie__desc my-2">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
+                  minus eius minima. Inventore aliquid corrupti ex ut, esse
+                  debitis ullam, nemo quaerat quas iste delectus blanditiis
+                  eligendi quam sed minima?
+                </p>
+                <div class="movie__cta my-2">
+                  <a href="" class="btn btn-danger me-1">
+                    <i class="bi bi-play-fill me-1"></i> Watch Now</a
+                  >
+                  <a href="" class="btn btn-outline-light">
+                    <i class="bi bi-suit-heart-fill me-1"></i>Add To Favorite</a
+                  >
+                </div>
+              </div>
+              <div class="col-6 mx-auto mt-2 col-md-3 ms-md-auto me-md-0">
+                <img
+                  class="img-fluid"
+                  src="./dist/images/films/suspense/gone-girl/up.jpg"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="listing py-5">
+      <div class="container">
+        <div class="d-flex my-2 justify-content-between">
+          <h3 class="listing__title text-white fw-400">Suspense</h3>
+          <a class="align-self-center" href="">See All</a>
+                    </div>
+                    <div class="row movies owl-carousel owl-theme">
+                        <div class="p-0 movie">
+                            <img class="img-fluid w-100" src="./dist/images/films/suspense/gone-girl/2000007974568.jpg" alt="" />
+                            <div class="movie__details px-1">
+                                <div class="d-flex justify-content-between text-white my-2">
+                                    <p class="mb-0 movie__name">Gone Girl</p>
+                                    <p class="mb-0 movie__year align-self-center">2014</p>
+                                </div>
+                                <div class="d-flex movie__reating">
+                                    <div class="me-2">
+                                        <i class="bi bi-star-fill me-1"></i>
+                                        <i class="bi bi-star-fill me-1"></i>
+                                        <i class="bi bi-star-fill me-1"></i>
+                                        <i class="bi bi-star-fill me-1"></i>
+                                    </div>
+                                    <span class="text-white">4.5</span>
+                                </div>
+                                <div class="movie__views">
+                                    <p class="text-white">Views:300</p>
+                                </div>
+                                <div class="d-flex movie__cta">
+                                    <a class="btn btn-danger flex-fill me-2">
+                                        <i class="bi bi-play-fill me-1"></i>watch now</a>
+                                    <i class="bi bi-heart-fill movie__fav_btn align-self-center"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="p-0 movie">
+                            <img class="img-fluid w-100" src="./dist/images/films/suspense/gone-girl/Business-4790-7ba7266b072fd08143beba8a59125bf9-large_dM2w364MScsjFf8pfMbaWUcWrR.jpg" alt="" />
+                            <div class="movie__details px-1">
+                                <div class="d-flex justify-content-between text-white my-2">
+                                    <p class="mb-0 movie__name">Pulp Fiction</p>
+                                    <p class="mb-0 movie__year align-self-center">1997</p>
+                                </div>
+                                <div class="d-flex movie__reating">
+                                    <div class="me-2">
+                                        <i class="bi bi-star-fill me-1"></i>
+                                        <i class="bi bi-star-fill me-1"></i>
+                                        <i class="bi bi-star-fill me-1"></i>
+                                        <i class="bi bi-star-fill me-1"></i>
+                                    </div>
+                                    <span class="text-white">6.5</span>
+                                </div>
+                                <div class="movie__views">
+                                    <p class="text-white">Views:200</p>
+                                </div>
+                                <div class="d-flex movie__cta">
+                                    <a class="btn btn-danger flex-fill me-2"><i class="bi bi-play-fill me-1"></i> watch now</a
+                >
+                <i
+                  class="bi bi-heart-fill movie__fav_btn align-self-center"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="p-0 movie">
+            <img
+              class="img-fluid w-100"
+              src="./dist/images/films/suspense/gone-girl/MV5BYmJmM2Q4NmMtYThmNC00ZjRlLWEyZmItZTIwOTBlZDQ3NTQ1XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg"
+              alt=""
+            />
+            <div class="movie__details px-1">
+              <div class="d-flex justify-content-between text-white my-2">
+                <p class="mb-0 movie__name">Life is Beautiful</p>
+                <p class="mb-0 movie__year align-self-center">1990</p>
+              </div>
+              <div class="d-flex movie__reating">
+                <div class="me-2">
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                </div>
+                <span class="text-white">7.5</span>
+              </div>
+              <div class="movie__views">
+                <p class="text-white">Views:500</p>
+              </div>
+              <div class="d-flex movie__cta">
+                <a class="btn btn-danger flex-fill me-2">
+                  <i class="bi bi-play-fill me-1"></i>watch now</a
+                >
+                <i
+                  class="bi bi-heart-fill movie__fav_btn align-self-center"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="p-0 movie">
+            <img
+              class="img-fluid w-100"
+              src="./dist/images/films/suspense/gone-girl/7.jpg"
+              alt=""
+            />
+            <div class="movie__details px-1">
+              <div class="d-flex justify-content-between text-white my-2">
+                <p class="mb-0 movie__name">Seven</p>
+                <p class="mb-0 movie__year align-self-center">1995</p>
+              </div>
+              <div class="d-flex movie__reating">
+                <div class="me-2">
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                </div>
+                <span class="text-white">6.5</span>
+              </div>
+              <div class="movie__views">
+                <p class="text-white">Views:700</p>
+              </div>
+              <div class="d-flex movie__cta">
+                <a class="btn btn-danger flex-fill me-2">
+                  <i class="bi bi-play-fill me-1"></i>watch now</a
+                >
+                <i
+                  class="bi bi-heart-fill movie__fav_btn align-self-center"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="listing py-5">
+      <div class="container">
+        <div class="row gx-5 my-2">
+          <div class="col-md-12 d-flex my-2 justify-content-between">
+            <h3 class="listing__title text-white fw-400">Children</h3>
+            <a class="align-self-center" href="">See All</a>
+                                </div>
+                            </div>
+
+                            <div class="row movies owl-carousel owl-theme">
+                                <div class="p-0 movie">
+                                    <img class="img-fluid w-100" src="./dist/images/films/suspense/gone-girl/up.jpg" alt="" />
+                                    <div class="movie__details px-1">
+                                        <div class="d-flex justify-content-between text-white my-2">
+                                            <p class="mb-0 movie__name">UP</p>
+                                            <p class="mb-0 movie__year align-self-center">2014</p>
+                                        </div>
+                                        <div class="d-flex movie__reating">
+                                            <div class="me-2">
+                                                <i class="bi bi-star-fill me-1"></i>
+                                                <i class="bi bi-star-fill me-1"></i>
+                                                <i class="bi bi-star-fill me-1"></i>
+                                                <i class="bi bi-star-fill me-1"></i>
+                                            </div>
+                                            <span class="text-white">4.5</span>
+                                        </div>
+                                        <div class="movie__views">
+                                            <p class="text-white">Views:300</p>
+                                        </div>
+                                        <div class="d-flex movie__cta">
+                                            <a class="btn btn-danger flex-fill me-2">
+                                                <i class="bi bi-play-fill me-1"></i>watch now</a>
+                                            <i class="bi bi-heart-fill movie__fav_btn align-self-center"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="p-0 movie">
+                                    <img class="img-fluid w-100" src="./dist/images/films/suspense/gone-girl/me3.jpg" alt="" />
+                                    <div class="movie__details px-1">
+                                        <div class="d-flex justify-content-between text-white my-2">
+                                            <p class="mb-0 movie__name text-capitalize">DESPICABLE ME3</p>
+                                            <p class="mb-0 movie__year align-self-center">2011</p>
+                                        </div>
+                                        <div class="d-flex movie__reating">
+                                            <div class="me-2">
+                                                <i class="bi bi-star-fill me-1"></i>
+                                                <i class="bi bi-star-fill me-1"></i>
+                                                <i class="bi bi-star-fill me-1"></i>
+                                                <i class="bi bi-star-fill me-1"></i>
+                                            </div>
+                                            <span class="text-white">6.5</span>
+                                        </div>
+                                        <div class="movie__views">
+                                            <p class="text-white">Views:200</p>
+                                        </div>
+                                        <div class="d-flex movie__cta">
+                                            <a class="btn btn-danger flex-fill me-2"><i class="bi bi-play-fill me-1"></i> watch now</a
+                >
+                <i
+                  class="bi bi-heart-fill movie__fav_btn align-self-center"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="p-0 movie">
+            <img
+              class="img-fluid w-100"
+              src="./dist/images/films/suspense/gone-girl/sprit.jpg"
+              alt=""
+            />
+            <div class="movie__details px-1">
+              <div class="d-flex justify-content-between text-white my-2">
+                <p class="mb-0 movie__name text-capitalize">SPIRITED AWAY</p>
+                <p class="mb-0 movie__year align-self-center">2008</p>
+              </div>
+              <div class="d-flex movie__reating">
+                <div class="me-2">
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                </div>
+                <span class="text-white">7.5</span>
+              </div>
+              <div class="movie__views">
+                <p class="text-white">Views:500</p>
+              </div>
+              <div class="d-flex movie__cta">
+                <a class="btn btn-danger flex-fill me-2">
+                  <i class="bi bi-play-fill me-1"></i>watch now</a
+                >
+                <i
+                  class="bi bi-heart-fill movie__fav_btn align-self-center"
+                ></i>
+              </div>
+            </div>
+          </div>
+          <div class="p-0 movie">
+            <img
+              class="img-fluid w-100"
+              src="./dist/images/films/suspense/gone-girl/p_frozen_18373_3131259c.jpeg"
+              alt=""
+            />
+            <div class="movie__details px-1">
+              <div class="d-flex justify-content-between text-white my-2">
+                <p class="mb-0 movie__name">Frozen</p>
+                <p class="mb-0 movie__year align-self-center">2016</p>
+              </div>
+              <div class="d-flex movie__reating">
+                <div class="me-2">
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                  <i class="bi bi-star-fill me-1"></i>
+                </div>
+                <span class="text-white">6.5</span>
+              </div>
+              <div class="movie__views">
+                <p class="text-white">Views:700</p>
+              </div>
+              <div class="d-flex movie__cta">
+                <a class="btn btn-danger flex-fill me-2">
+                  <i class="bi bi-play-fill me-1"></i>watch now</a
+                >
+                <i
+                  class="bi bi-heart-fill movie__fav_btn align-self-center"
+                ></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer py-3 bg-danger text-center text-white">
+      <p class="mb-0 text-capitalize">
+        &copy;all copy right reserved for Netflix 2022
+      </p>
+      <div class="social__icons">
+        <a href="" class="text-white">
+          <i class="bi bi-facebook"></i>
+        </a>
+                                            <a href="" class="text-white">
+                                                <i class="bi bi-twitter"></i>
+                                            </a>
+                                            <a href="" class="text-white">
+                                                <i class="bi bi-youtube"></i>
+                                            </a>
+                                        </div>
+                                        </footer>
+                                        <script src="dist/js/jquery-3.6.0.js"></script>
+                                        <script src="dist/js/bootstrap.min.js"></script>
+                                        <script src="dist/js/bootstrap.bundle.min.js"></script>
+                                        <script src="dist/js/vendor.min.js"></script>
+                                        <script src="dist/js/main.min.js"></script>
+                                        <script>
+                                            $(document).ready(function() {
+                                                $("#banner .movies").owlCarousel({
+                                                    loop: true,
+                                                    nav: false,
+                                                    dots: false,
+                                                    items: 1,
+                                                });
+                                                $(".listing .movies").owlCarousel({
+                                                    loop: true,
+                                                    nav: false,
+                                                    dots: false,
+                                                    margin: 10,
+                                                    stagePadding: 50,
+                                                    responsive: {
+                                                        0: {
+                                                            items: 1,
+                                                        },
+                                                        600: {
+                                                            items: 4,
+                                                        },
+                                                        1000: {
+                                                            items: 4,
+                                                            nav: true,
+                                                        },
+                                                    },
+                                                });
+                                            });
+                                        </script>
+</body>
+
+</html>

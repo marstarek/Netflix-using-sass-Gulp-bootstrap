@@ -1,0 +1,21 @@
+.login {
+    height: 100vh;
+    position: relative;
+    background: $black;
+    // padding: 5% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .login_bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: linear-gradient(rgba($black, 0.5), rgba($black, 0.5)), url("../../../dist/images/misc/home-bg.jpg")center/cover no-repeat;
+        filter: blur(2px);
+    }
+    .login_popup {
+        background: $white;
+    }
+}

@@ -1,0 +1,36 @@
+#show {
+    min-height: 100vh;
+    .movie {
+        position: relative;
+        background: $black;
+        padding: 6.25rem 0;
+        ;
+        .movie__bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            filter: blur(3px);
+        }
+        .movie__details {
+            .movie__fav_btn {
+                font-size: 1.2rem;
+                color: $white;
+            }
+        }
+        .movie__reating {
+            .bi-star-fill {
+                font-size: 1.1rem;
+                color: $red;
+            }
+        }
+        .movie__name {
+            font-size: 2.6rem;
+            font-weight: 500;
+        }
+        .movie__desc p {
+            line-height: 2;
+        }
+    }
+}
